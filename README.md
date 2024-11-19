@@ -119,8 +119,8 @@ Users can refine inputs and re-submit the form for updated predictions.
 ## Contact
 If you have any questions, feel free to reach out:
 
-[Email](yogeshgunjal75@gmail.com)
-[LinkedIn](https://www.linkedin.com/in/yogeshgunjal75/)
+![Email](yogeshgunjal75@gmail.com)
+![LinkedIn](https://www.linkedin.com/in/yogeshgunjal75/)
 
 ---
 
