@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond Price Prediction - Parameter Guide</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7fc;
+            padding: 20px;
+            color: #333;
+            line-height: 1.8;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            color: #007bff;
+            margin-bottom: 30px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .table-container {
+            flex: 1;
+            min-width: 300px;
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 24px;
+            color: #444;
+            margin-bottom: 15px;
+        }
+
+        .definition {
+            text-align: justify;
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        ul {
+            margin: 10px 0 0 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+
+        .link-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .link-container a {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .link-container a:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>Understanding Diamond Parameters</h1>
+    <p>This guide provides definitions and explanations for the parameters used in the Diamond Price Prediction model.</p>
+
+    <div class="container">
+        <!-- First Table -->
+        <div class="table-container">
+            <h3>Carat</h3>
+            <div class="definition">
+                <p>The carat is the unit of measurement for the weight of a diamond. One carat is equivalent to 0.2 grams.</p>
+            </div>
+            <h3>Depth</h3>
+            <div class="definition">
+                <p>The depth percentage is the height of the diamond (from the table to the culet) divided by its average diameter. It affects the diamond's brilliance.</p>
+            </div>
+            <h3>Table</h3>
+            <div class="definition">
+                <p>The table is the largest facet on the diamond's top. The table percentage is the width of the table divided by the total width of the diamond.</p>
+            </div>
+            <h3>X, Y, Z</h3>
+            <div class="definition">
+                <ul>
+                    <li><strong>X:</strong> The length of the diamond in millimeters.</li>
+                    <li><strong>Y:</strong> The width of the diamond in millimeters.</li>
+                    <li><strong>Z:</strong> The depth of the diamond in millimeters.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Second Table -->
+        <div class="table-container">
+            <h3>Cut</h3>
+            <div class="definition">
+                <p>The cut grade refers to how well the diamond has been cut and shaped. It impacts how the diamond reflects light and includes the following grades:</p>
+                <ul>
+                    <li><strong>Fair:</strong> Reflects less light and is less brilliant.</li>
+                    <li><strong>Good:</strong> Reflects most light but not as much as higher grades.</li>
+                    <li><strong>Very Good:</strong> Reflects nearly all the light that enters.</li>
+                    <li><strong>Premium:</strong> Superior quality, reflects almost as much light as the ideal cut.</li>
+                    <li><strong>Ideal:</strong> Best cut grade, reflects nearly all the light that enters.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Third Table -->
+        <div class="table-container">
+            <h3>Color</h3>
+            <div class="definition">
+                <p>Color refers to the absence of color in a diamond. Grades range from D (colorless) to J (lightly colored). The less color, the higher the value:</p>
+                <ul>
+                    <li><strong>D:</strong> Completely colorless, rarest and most valuable.</li>
+                    <li><strong>E:</strong> Nearly colorless, minute traces of color detectable only by experts.</li>
+                    <li><strong>F:</strong> Slight color, still considered high quality.</li>
+                    <li><strong>G-H:</strong> Nearly colorless, good value.</li>
+                    <li><strong>I-J:</strong> Noticeable color but still appealing, more affordable.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Fourth Table -->
+        <div class="table-container">
+            <h3>Clarity</h3>
+            <div class="definition">
+                <p>Clarity measures the internal and external imperfections of the diamond. The grades include:</p>
+                <ul>
+                    <li><strong>I1:</strong> Included, visible inclusions.</li>
+                    <li><strong>SI2:</strong> Slightly included, visible under 10x magnification.</li>
+                    <li><strong>SI1:</strong> Slightly included, difficult to see with the naked eye.</li>
+                    <li><strong>VS2:</strong> Very slightly included, minor inclusions visible under magnification.</li>
+                    <li><strong>VS1:</strong> Very slightly included, even fewer inclusions.</li>
+                    <li><strong>VVS2:</strong> Very, very slightly included, minute inclusions.</li>
+                    <li><strong>VVS1:</strong> Higher quality than VVS2, nearly flawless.</li>
+                    <li><strong>IF:</strong> Internally flawless, no inclusions visible.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="link-container">
+        <a href="http://127.0.0.1:8000/predict">Go to Prediction Form</a>
+    </div>
+</body>
+</html>
