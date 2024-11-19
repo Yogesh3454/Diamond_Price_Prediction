@@ -90,7 +90,7 @@ This page explains the diamond parameters used for price prediction.
 **Users can input diamond details on this page.**
 
 - **Before Prediction:**
-![alt text](image2.png,image3.png)
+![alt text](image2.png)![alt text](image3.png)
 
 - **After Prediction:**
 Once the form is submitted, the predicted price is displayed.
