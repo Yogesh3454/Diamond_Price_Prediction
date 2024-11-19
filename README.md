@@ -120,7 +120,7 @@ Users can refine inputs and re-submit the form for updated predictions.
 If you have any questions, feel free to reach out:
 
 [Email](yogeshgunjal75@gmail.com)
-[LinkedIn]()
+[LinkedIn](https://www.linkedin.com/in/yogeshgunjal75/)
 
 ---
 
